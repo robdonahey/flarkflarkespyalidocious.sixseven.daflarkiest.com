@@ -42,3 +42,9 @@ main {
 #bryant:active {
   transform: scale(0.98);
 }
+
+.hint {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
