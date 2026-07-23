@@ -22,7 +22,13 @@ main {
   padding: 2rem;
 }
 
-#bryant {
+.bryants {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bryant {
   max-width: min(90vw, 480px);
   width: 100%;
   height: auto;
@@ -33,13 +39,11 @@ main {
     transform 0.15s ease,
     box-shadow 0.15s ease;
 }
-
-#bryant:hover {
+.bryant:hover {
   transform: scale(1.02);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
 }
-
-#bryant:active {
+.bryant:active {
   transform: scale(0.98);
 }
 
