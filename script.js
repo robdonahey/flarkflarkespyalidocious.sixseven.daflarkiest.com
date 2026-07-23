@@ -1,7 +1,7 @@
-const image = document.getElementById("bryant");
-const audio = document.getElementById("audio");
-
-image.addEventListener("click", () => {
-  audio.currentTime = 0;
-  audio.play();
+document.querySelectorAll(".bryant").forEach((img) => {
+  img.addEventListener("click", () => {
+    const audio = document.getElementById(img.dataset.audio);
+    audio.currentTime = 0;
+    audio.play();
+  });
 });
