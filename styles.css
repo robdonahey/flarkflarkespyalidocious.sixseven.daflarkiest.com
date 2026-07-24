@@ -28,6 +28,12 @@ main {
   gap: 1rem;
 }
 
+@media (max-width: 768px) {
+  .bryants {
+    flex-direction: column;
+  }
+}
+
 .bryant {
   max-width: min(90vw, 480px);
   width: 100%;
